@@ -1,1 +1,17 @@
 
+name: ClanPro
+author: echnotical889
+description: A Plugin For Easily Managing Factions
+version: 1.0.0
+main: ClanPro\ClanMain
+api: [3.0.0]
+softdepend: ["AntiSpamPro"]
+extensions: [sqlite3]
+commands:
+  c:
+    description: use /c help for all parameters
+    permission: c.command
+permissions:
+  c.command:
+    default: true
+    description: "Allow use of all Clan commands"
