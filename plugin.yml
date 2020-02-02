@@ -1,7 +1,7 @@
 
 name: ClanPro
 author: echnotical889
-description: A Plugin For Easily Managing Factions
+description: A Plugin For Easily Managing Clans
 version: 1.0.0
 main: ClanPro\ClanMain
 api: [3.0.0]
